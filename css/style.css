@@ -1,5 +1,6 @@
 /* Import Font */
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 /* CSS Reset */
 *{
@@ -39,24 +40,67 @@ main{
 /* Sezione Centrale */
 /* Pulsanti */
 .section-buttons{
-    line-height: 60px;
-    height: 60px;
+    line-height: 70px;
+    height: 70px;
     padding-left: 50px;
     border-bottom: 2px solid #dedede;
 }
-button{
+.primary-section{
     background-color: white;
     border-radius: 5px;
     vertical-align: middle;
-    padding: 5px;
+    padding: 10px 20px;
+    margin: 0 2px;
 }
-button.btn1{
+.primary-section.btn1{
     color: white;
     background-color: #46adf0;
     border-color: #40a8ef;
 }
-button.btn2{
-    color: #dedede;
+.primary-section.btn2{
+    color: #9b9b9b;
     background-color: white;
     border-color: #dedede;
+}
+
+/* New Task */
+.new-task{
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 70px;
+}
+details > summary {
+    font-size: 26px;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+.check-mark{
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+}
+.summary-content{
+    margin-top: 10px;
+    height: 30px;
+}
+.summary-content > .text{
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.summary-content > .btn{
+    color: white;
+    background-color: #46adf0;
+    border-color: #1c74af;
+    border-radius: 5px;
+    padding: 5px;
+    vertical-align: middle;
+    margin-left: 10px;
 }
