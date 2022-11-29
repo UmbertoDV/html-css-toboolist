@@ -69,6 +69,9 @@ main{
     margin-left: 50px;
     height: 70px;
 }
+.new-task{
+    margin-top: 40px;
+}
 details > summary {
     font-size: 26px;
     cursor: pointer;
@@ -109,6 +112,9 @@ details > summary {
     vertical-align: middle;
 }
 /* Today Section */
+.today{
+    margin-top: 30px;
+}
 .btn-goals{
     color: white;
     background-color: #9d72e5;
