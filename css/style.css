@@ -115,6 +115,42 @@ details > summary {
 .today{
     margin-top: 30px;
 }
+
+.x-mark{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+}
+/* Upcoming Section */
+.upcoming{
+    margin-top: 200px;
+}
+
+                        /* Buttons */
+.btn-sales{
+    color: white;
+    background-color: #efd49c;
+    border-color: #efd49c;
+    border-radius: 10px;
+    padding: 5px 10px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.btn-website{
+    color: white;
+    background-color: #b66cc2;
+    border-color: #b66cc2;
+    border-radius: 10px;
+    padding: 5px 10px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
 .btn-goals{
     color: white;
     background-color: #9d72e5;
@@ -137,39 +173,6 @@ details > summary {
     color: white;
     background-color: #d9a943;
     border-color: #d9a943;
-    border-radius: 10px;
-    padding: 5px 10px;
-    vertical-align: middle;
-    margin-left: 10px;
-}
-.x-mark{
-    color: red;
-    border: 1px solid red;
-    border-radius: 50%;
-    height: 25px;
-    width: 25px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 25px;
-}
-/* Upcoming Section */
-.upcoming{
-    margin-top: 200px;
-}
-.btn-sales{
-    color: white;
-    background-color: #efd49c;
-    border-color: #efd49c;
-    border-radius: 10px;
-    padding: 5px 10px;
-    vertical-align: middle;
-    margin-left: 10px;
-}
-.btn-website{
-    color: white;
-    background-color: #b66cc2;
-    border-color: #b66cc2;
     border-radius: 10px;
     padding: 5px 10px;
     vertical-align: middle;
