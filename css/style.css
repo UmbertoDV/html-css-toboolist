@@ -64,7 +64,7 @@ main{
 }
 
 /* New Task */
-.new-task{
+.new-task, .today{
     margin-top: 20px;
     margin-left: 50px;
     height: 70px;
@@ -88,17 +88,31 @@ details > summary {
 }
 .summary-content{
     margin-top: 10px;
-    height: 30px;
 }
-.summary-content > .text{
+.line-summary > .text{
     font-size: 20px;
     vertical-align: middle;
     margin-left: 5px;
 }
-.summary-content > .btn{
+.line-summary > .btn{
     color: white;
     background-color: #46adf0;
     border-color: #1c74af;
+    border-radius: 5px;
+    padding: 5px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.line-summary{
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+}
+/* Today Section */
+.btn-goals{
+    color: white;
+    background-color: #9d72e5;
+    border-color: #7d5bb7;
     border-radius: 5px;
     padding: 5px;
     vertical-align: middle;
