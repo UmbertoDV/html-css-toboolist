@@ -1,0 +1,16 @@
+/* General tag */
+header{
+    background-color: white;
+    height: 80px;
+    line-height: 80px;
+}
+/* Header */
+#logo{
+    margin-left: 20px;
+    vertical-align: middle;
+}
+#header-title{
+    display: inline;
+    vertical-align: middle;
+    font-family: 'Bree Serif', serif;
+}
