@@ -35,3 +35,28 @@ main{
     vertical-align: middle;
     font-family: 'Bree Serif', serif;
 }
+
+/* Sezione Centrale */
+/* Pulsanti */
+.section-buttons{
+    line-height: 60px;
+    height: 60px;
+    padding-left: 50px;
+    border-bottom: 2px solid #dedede;
+}
+button{
+    background-color: white;
+    border-radius: 5px;
+    vertical-align: middle;
+    padding: 5px;
+}
+button.btn1{
+    color: white;
+    background-color: #46adf0;
+    border-color: #40a8ef;
+}
+button.btn2{
+    color: #dedede;
+    background-color: white;
+    border-color: #dedede;
+}
